@@ -1,0 +1,12 @@
+Running ./testclient.sh at 20190626-110337
+Running: /home/antlad/code/openssl/apps/openssl s_client -msg -debug  -CApath /etc/ssl/certs/ -no_ssl3 -no_tls1 -no_tls1_1 -no_tls1_2  -connect www.cloudflare.com:443  -esni ietf.org -esnirr /wGVf3ttACQAHQAgLqnho0DuTNCt7g7bwUNqbuELV4XOYDFOFofa+dJCqTAAAhMBAQQAAAAAXQ9NoAAAAABdFzagAAA= -esni_strict  -noservername   -sess_out t10sess
+./testclient.sh All output
+./testclient.sh: line 310: valgrind: command not found
+
+./testclient.sh Valgrind
+
+
+./testclient.sh Summary: 
+Nonce sent: 
+Nonce Back: 
+
